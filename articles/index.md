@@ -1,2 +1,2 @@
 # Contents
-- [Trump ignores deepening coronavirus crisis, Biden calls for urgent response](/Trump_ignores_COVID_crisis) 
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit](/Lorem_Ipsum) 

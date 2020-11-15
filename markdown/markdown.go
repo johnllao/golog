@@ -13,7 +13,7 @@ type MarkdownContent []byte
 func (c MarkdownContent) Convert() ([]byte, error) {
 	var ren = html.WithUnsafe()
 	var o = goldmark.WithRendererOptions(ren)
-	var ext = goldmark.WithExtensions(extension.Table)
+	var ext = goldmark.WithExtensions(extension.Table, extension.DefinitionList)
 	var m = goldmark.New(ext, o)
 
 	var err error
